@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/index_estilo.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap" rel="stylesheet">
     <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD6/v0AAAAAAP7//wAJCQkA+Pz8APr8/AD8/v4A8/T0APn+/QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmYkZmZmZmZmZmMWZmZmZmZmZoFmZmZmZmZmYBZmZmZmYXYmFmZmZmZhZRYmZmZmZmZmFmJmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
     <script src="https://kit.fontawesome.com/929e68372c.js" crossorigin="anonymous"></script>
@@ -14,7 +15,15 @@
 </head>
 <body>
     
-    <div id="general">
+    <main id="gral" class="general">
+        <div class="container-btn-mode">
+            <div id="id-sun" class="btn-mode sun active">
+               <i class="fas fa-sun"></i>
+            </div>
+            <div id="id-moon" class="btn-mode moon">
+               <i class="fas fa-moon"></i>
+            </div>
+         </div>
         <header class="cabecera"><nav>
             <a href="#quien_soy" class="barraNav"><strong>QUIEN SOY</strong></a>
             <a href="#software" class="barraNav"><strong>HERRAMIENTAS DE SOFTWARE</strong></a>
@@ -22,7 +31,7 @@
             <a href="#formacion_academica" class="barraNav"><strong>FORMACÍON ACADÉMICA</strong></a>
         </nav>
         </header>
-        <div id="lateral">
+        <aside class="lateral">
             <div id="fotoynombre">
                 <figure id="foto">
                 <img src="img/20220214_151505.jpg" alt="foto"
@@ -50,8 +59,8 @@
                 <li>15 meses en sistemas</li>
             </ul>
 
-        </div>
-        <div id="principal">
+        </aside>
+        <article class="principal">
             <a name="quien_soy">
             <h2 class="titulosh2" >QUIEN SOY</h2>
             <P>Gran apacionado de la programacíon</P>
@@ -95,8 +104,8 @@
                 <li>Voluntariado: enseñar a los ancianos de la comunidad a utilizar redes sociales</li>
                 <li>Organización de eventos para defender un uso seguro y responsable de Internet</li>
             </ul>
-        </div>
-    </div>
+        </article>
+    </main>
     <script src="js/function.js"></script>
 
 </body>
