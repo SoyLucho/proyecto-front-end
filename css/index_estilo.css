@@ -56,14 +56,14 @@ div#fotoynombre{
     justify-content: center;
     align-items: center;
     align-content: center;
-    color: #ecd8cc;
+    color: black;
 }
 
 
 .barraNav{
     display: inline-block;
     background: white;
-    color: #ecd8cc;
+    color: black;
     padding: 10px 23px;
     text-overflow: clip;
     text-decoration: none;
@@ -71,11 +71,12 @@ div#fotoynombre{
 }
 
 .barraNav:hover{
-    color: black;
+    color: #ecd8cc;
 }
 
 body{
     font-family: 'Oswald', sans-serif;
+    background-color: white;
 }
 
 
@@ -91,7 +92,7 @@ body{
     display: inline-block;
     width: 50px;
     height: 30px;
-    border:2px solid black;
+    border:2px solid #ecd8cc;
     transition: background-color .5s;
   }
   .btn-mode i {
@@ -110,7 +111,7 @@ body{
     border-bottom-right-radius: 20px;
   }
   .active{
-    background-color:black;
+    background-color: #ecd8cc;
     color:#ffcd5c !important;
   }
 
@@ -118,35 +119,42 @@ body{
     background-color: #0e0e0e;
     transition:background-color .5s;
   }
-  .dark-mode .cabecera, .dark-mode .titulosh2, .dark-mode .barraNav, .dark-mode .general, .dark-mode .lateral, .dark-mode .principal, .dark-mode body{
+  .dark-mode .cabecera, .dark-mode .titulosh2, .dark-mode .barraNav, .dark-mode .general, .dark-mode .lateral, .dark-mode .principal, .dark-mode .btn{
     background-color: #1A1C1E;
   }
   .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode p, .dark-mode li, .dark-mode a{
     color:white;
   }
   .dark-mode .btn-mode{
-    background-color:#1A1C1E;
+    background-color:black;
     border:1px solid white;
     color:white;
   }
 
 
   #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    display: none; 
+    position: fixed; 
   }
   
   #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: whitesmoke; 
+  }
+
+
+  .btn {
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    outline: none;
+    background-color: #ecd8cc; 
+    color: black;
+    cursor: pointer; 
+    padding: 15px;
+    border-radius: 10px; 
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    background-color: whitesmoke; 
   }
